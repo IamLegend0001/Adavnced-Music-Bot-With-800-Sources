@@ -15,7 +15,7 @@ const { SoundCloudPlugin } = require('@distube/soundcloud')
 client.config = require('./config.json')
 require("./handler")(client);
 client.distube = new DisTube(client, {
-  leaveOnStop: false,
+  leaveOnStop: true,
   emitNewSongOnly: true,
   emitAddSongWhenCreatingQueue: false,
   emitAddListWhenCreatingQueue: false,
@@ -43,8 +43,8 @@ fs.readdir('./commands/', (err, files) => {
 })
 
 client.on('ready', () => {
-  console.log(`${client.user.tag} is ready to play music.`)
-  client.user.setPresence({ activities: [{ name: "!cmd", type: `LISTENING` }], status: 'idle' })
+  console.log(`${client.user.tag} is Watching Legend Codez's Videos`)
+  client.user.setPresence({ activities: [{ name: "dsc.gg/shades-dev", type: `WATCHING` }], status: 'dnd' })
 })
 
 client.on('messageCreate', async message => {
@@ -143,3 +143,11 @@ client.distube
 // .on("searchDone", () => {})
 
 client.login(config.token)
+
+//Made By Legend Codez
+
+//Must Give Credits While Using - https://dsc.gg/shades-dev |https://www.youtube.com/channel/UCoo2H78DlUGKRoShdOeyObQ,
+
+//Made By Shades Development 
+
+//12/3/22 | 5:33pm
