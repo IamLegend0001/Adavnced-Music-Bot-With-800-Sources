@@ -1,3 +1,4 @@
+const Discord = require('discord.js')
 const { Constants } = require('discord.js')
 
 module.exports = {
@@ -17,5 +18,6 @@ module.exports = {
       )
     }
     client.distube.voices.join(voiceChannel)
+    message.channel.send(`Joined ${message.guild.me.voice.channel}`)
   }
 }
