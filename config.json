@@ -1,7 +1,6 @@
 {
-    "prefix": "$",
-    "token": "OTMyMzE4OTYxMzgxNTQ0MDE2.YeRPsg.fiFvSv5bRqOQQyERHUxg9NBmc3M",
-    "mongooseConnectionString": "mongodb+srv://brandan:brandan1978@cluster0.yezka.mongodb.net/Data",
+    "prefix": "PREFIX_HERE",
+    "token": TOKEN_HERE"
     "emoji": {
       "play": "<a:playing:940577688169615380>",
       "stop": "⏹️",
