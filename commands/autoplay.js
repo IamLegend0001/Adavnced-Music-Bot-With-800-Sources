@@ -15,7 +15,8 @@ module.exports = {
         ]
       })
       const autoplay = queue.toggleAutoplay()
-      message.channel.send(`${client.emotes.success} | AutoPlay: \`${autoplay ? 'On' : 'Off'}\``)
+      // Send's Success Message After Autoplay Is Enabled!
+      message.channel.send(`${client.emotes.success} | AutoPlay Was Enabled!`)
     }
   }
 
