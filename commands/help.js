@@ -14,6 +14,7 @@ module.exports = {
           Join Our [Support Server](https://discord.gg/dMtasjybdM)
           [Invite Me](https://dsc.gg/brandan)
           [Vote Me](https://top.gg/bot/927092113315868713)**
+          **[Youtube](https://www.youtube.com/channel/UCoo2H78DlUGKRoShdOeyObQ)**
           Prefix: ('!') `)
           .setColor('#ff0000')
           .setFooter("Thanks For Choosing Brandan")
